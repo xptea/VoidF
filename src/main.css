@@ -9,14 +9,22 @@
     .logo {
         @apply bg-contain transition-all ease-out h-full w-full hover:h-[110%] hover:w-[110%] max-w-max
     }
+    .sidebar-item {
+        @apply flex items-center gap-2 px-3 py-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer text-sm
+    }
+    .finder-header {
+        @apply h-12 bg-gray-100 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 flex items-center px-4
+    }
+    .finder-toolbar {
+        @apply flex items-center gap-2 px-2 py-1 bg-gray-50 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700
+    }
 }
 
-
-
 :root {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+
     font-weight: 400;
 
     color: #0f0f0f;
