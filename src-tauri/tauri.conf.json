@@ -18,8 +18,6 @@
       }
     ],
     "security": {
-      "csp": null,
-      "capabilities": ["fs:default", "fs:read", "fs:write", "path:default"]
     }
   },
   "bundle": {

@@ -5,10 +5,5 @@
   "windows": [
     "main"
   ],
-  "permissions": [
-    "core:default",
-    "shell:allow-open",
-    "fs:default",
-    "fs:default"
-  ]
+  "permissions": []
 }

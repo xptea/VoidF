@@ -1,5 +1,6 @@
 use serde::{Deserialize, Serialize};
 use std::fs;
+use tauri_plugin_fs::FsExt;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct FileItem {
